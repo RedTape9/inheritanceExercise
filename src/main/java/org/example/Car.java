@@ -11,8 +11,8 @@ class Car extends Vehicle{
         this.numberOfDoors = 4;
     }
 
-    void getSpecifications(){
-        super.getSpecifications();
+    void printSpecifications(){
+        super.printSpecifications();
         System.out.println("Number of doors: " + numberOfDoors);
     }
 }

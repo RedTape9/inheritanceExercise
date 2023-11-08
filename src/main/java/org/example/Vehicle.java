@@ -6,7 +6,7 @@ class Vehicle {
     int releaseYear;
 
 
-    void getSpecifications(){
+    void printSpecifications(){
         System.out.println("Manufacturer: " + manufacturer);
         System.out.println("Model: " + model);
         System.out.println("Release Year: " + releaseYear);
