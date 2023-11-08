@@ -9,7 +9,7 @@ public class Main {
 
         Car car = new Car();
         car.manufacturer = "VW";
-        car.model = "Golf";
+        // car.model = "Passat";  // default value from Car constructor
         car.releaseYear = 2010;
         car.numberOfDoors = 4;
         car.printSpecifications();
@@ -19,7 +19,7 @@ public class Main {
         Motorcycle chopper = new Motorcycle();
         chopper.manufacturer = "Harley Davidson";
         chopper.releaseYear = 2015;
-        chopper.model = "Iron 883";
+        // chopper.model = "Iron 883";
         chopper.type = "Chopper";
         chopper.printSpecifications();
 

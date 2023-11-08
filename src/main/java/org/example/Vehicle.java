@@ -1,9 +1,10 @@
 package org.example;
 
 class Vehicle {
-    String manufacturer;
-    String model;
-    int releaseYear;
+    String manufacturer = "unknown";
+    String model = "unknown";
+    int releaseYear = 0;
+
 
 
     void printSpecifications(){

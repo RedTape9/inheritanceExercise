@@ -5,6 +5,7 @@ class Car extends Vehicle{
 
     Car(){
         // super();
+        // default values
         this.manufacturer = "VW";
         this.model = "Golf";
         this.releaseYear = 2010;
